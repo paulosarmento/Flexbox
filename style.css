@@ -1,0 +1,18 @@
+html,
+body,
+#app{
+    height: 100%;
+    margin: 0;
+}
+#app{
+    display: flex;
+    flex-direction: row; /*linha e coluna*/
+    align-items: flex-end; /** se baseia na flex diretion **/
+    justify-content: center;/*center flex-end space-between coloca spaço no meio space-around spaço no começo e no fim tbm*/
+}
+.box{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background: red;
+}
