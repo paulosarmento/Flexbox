@@ -13,9 +13,21 @@ body,
     align-content: center;
 }
 .box{
-    width: 60px;
+    width: 100px;
     height: 60px;
     margin: 5px;
+
+}
+.red{
     background: red;
-    flex: 1; /*flex - uniao dos dois -> flex-grow: 1; aceita ser aumentado flex-shrink expreme por padrao 0 */
+    order: 1;/*Ordena as div*/
+}
+.blue{
+    
+    background: blue;
+    order: 3;
+}
+.green{  
+    background: green;
+    order: 2;
 }
