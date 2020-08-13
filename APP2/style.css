@@ -9,3 +9,75 @@ body{
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
 }
+input, button{
+    outline: 0;
+}
+
+header#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header#main-header nav ul {
+    display: flex;
+    list-style: none;
+}
+header#main-header nav ul li {
+    display: flex; /*Coloca os items na horizontal*/
+    align-items: center;
+
+    font-size: 13px;
+    color: #667580;
+    font-weight: bold;
+
+    margin-left: 30px;
+}
+header#main-header nav ul li:first-child {
+    margin: 0;
+}
+/*Imagem dos menus*/
+header#main-header nav ul li img{
+   margin-right: 7px;
+   height: 24px;
+}
+/*Imagem do Twitter*/
+header#main-header img{
+    height: 34px;
+}
+/*Imagem do avatar*/
+header#main-header div.side img{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+/*Botão do input*/
+header#main-header div.side input{
+    background: #f5f8fa;
+    border: 1px solid #e6ecf0;
+    height: 34px;
+    padding: 0 12px;
+    color: #667581;
+    border-radius: 16px;
+}
+header#main-header div.side{
+    display: flex;
+}
+header#main-header div.side button{
+    height: 34px;
+    background: #3bb9e3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: 0;
+    border-radius: 16px;
+}
+header#main-header div.side{
+    margin: 0 15px;
+}
